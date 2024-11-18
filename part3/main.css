@@ -1,0 +1,98 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resume-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.resume-header h1 {
+    font-size: 36px;
+    color: #0073e6;
+}
+
+.resume-header p {
+    font-size: 18px;
+    color: #888;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.job h3 {
+    font-size: 20px;
+    color: #0056b3;
+}
+
+.job p {
+    color: #888;
+    font-style: italic;
+}
+
+.skills ul, .education ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills li, .education li {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
